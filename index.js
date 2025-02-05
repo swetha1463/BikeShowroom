@@ -15,7 +15,7 @@ app.use("", employeeRoutes)
 app.use("", dealerRoutes)
 app.use("", salesRoutes)
 
-mongoose.connect('mongodb://localhost:27017/BikeShowroom')
+mongoose.connect('mongodb+srv://swetha1625:Swetha1625@mycluster.2ewox.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster')
 .then(()=>console.log('Database connected'))
 .catch((err)=>console.log(err))
 
